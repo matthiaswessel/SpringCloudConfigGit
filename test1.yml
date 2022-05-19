@@ -2,6 +2,4 @@ spring:
   cloud:
     config:
       override-none: true
-      allow-override: true
-      override-system-properties: false
 def: ghi
