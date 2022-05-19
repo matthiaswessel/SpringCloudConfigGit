@@ -1,16 +1,16 @@
 spring:
-  boot:
-    admin:
-      client:
-        url:
-        - http://localhost:8080
-  cloud:
-    config:
-      allowOverride: true
-      failFast: true
-      overrideNone: false
-      overrideSystemProperties: false
+    boot:
+        admin:
+            client:
+                url:
+                   - http://localhost:8080
+    cloud:
+        config:
+            allowOverride: true
+            failFast: true
+            overrideNone: false
+            overrideSystemProperties: false
 management:
-  endpoints.web.exposure.include: '*'
-  endpoint.health.show-details: always
+    endpoints.web.exposure.include: '*'
+    endpoint.health.show-details: always
 abc: def
