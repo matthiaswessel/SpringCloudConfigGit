@@ -3,4 +3,4 @@ server.port: 8082
 spring:
   cloud:
     config:
-      override-none: true
+      overrideNone: true

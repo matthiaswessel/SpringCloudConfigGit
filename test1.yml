@@ -1,5 +1,5 @@
 spring:
   cloud:
     config:
-      override-none: true
+      overrideNone: true
 def: ghi

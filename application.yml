@@ -6,7 +6,7 @@ spring:
         - http://localhost:8080
   cloud:
     config:
-      override-none: true
+      overrideNone: true
 management:
   endpoints.web.exposure.include: '*'
   endpoint.health.show-details: always

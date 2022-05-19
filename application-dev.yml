@@ -2,4 +2,4 @@ ghi: jkl
 spring:
   cloud:
     config:
-      override-none: true
+      overrideNone: true
