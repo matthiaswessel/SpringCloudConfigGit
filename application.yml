@@ -4,7 +4,10 @@ spring:
       client:
         url:
         - http://localhost:8080
-  cloud.config.allowOverride: true
+  cloud:
+    config:
+        allowOverride: true
+        overrideNone: true
 management:
     endpoints.web.exposure.include: '*'
     endpoint.health.show-details: always
