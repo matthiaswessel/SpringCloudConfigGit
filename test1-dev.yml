@@ -1,6 +1,2 @@
 jkl: mno
 server.port: 8082
-spring:
-  cloud:
-    config:
-      overrideNone: true

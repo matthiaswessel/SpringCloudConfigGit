@@ -6,7 +6,10 @@ spring:
         - http://localhost:8080
   cloud:
     config:
-      overrideNone: true
+      allowOverride: true
+      failFast: true
+      overrideNone: false
+      overrideSystemProperties: false
 management:
   endpoints.web.exposure.include: '*'
   endpoint.health.show-details: always
