@@ -8,7 +8,7 @@ spring:
         config:
             allowOverride: true
             failFast: true
-            overrideNone: false
+            overrideNone: true
             overrideSystemProperties: false
 management:
     endpoints.web.exposure.include: '*'
