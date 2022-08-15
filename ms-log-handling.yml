@@ -1,1 +1,6 @@
-def: ghi
+C8Y.baseURL=https://greenedge.prod.nxf1.lab.eng
+C8Y.bootstrap.tenant=edge
+C8Y.bootstrap.user=servicebootstrap_ms-log-handling
+C8Y.bootstrap.password=558s0dyzH3ljHVWAoQTYNC1SvCG99gt7
+C8Y.bootstrap.initialDelay=5
+C8Y.microservice.isolation=PER_TENANT
