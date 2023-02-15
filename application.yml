@@ -13,4 +13,4 @@ spring:
 management:
     endpoints.web.exposure.include: '*'
     endpoint.health.show-details: always
-abc: defOnBranch
+#abc: defOnBranch
